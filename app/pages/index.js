@@ -1,5 +1,5 @@
 // pages/_app.js
-import '../styles/globals.css'; // Adjust the path if necessary
+import '../globals.css'; // Adjusted path based on file location
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
